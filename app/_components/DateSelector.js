@@ -74,7 +74,7 @@ function DateSelector({ settings, cabin, bookedDates }) {
         {range.from || range.to ? (
           <button
             className="border border-primary-800 py-2 px-4 text-sm font-semibold"
-            onClick={resetRange()}
+            onClick={resetRange}
           >
             Clear
           </button>
