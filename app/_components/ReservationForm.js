@@ -87,7 +87,7 @@ function ReservationForm({ cabin, user }) {
               Start by selecting dates
             </p>
           ) : (
-            <SubmitButton pendingLabel="Reserving">Reserve now</SubmitButton>
+            <SubmitButton pendingLabel="Reserving...">Reserve now</SubmitButton>
           )}
         </div>
       </form>
