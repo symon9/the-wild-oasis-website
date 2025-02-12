@@ -32,7 +32,7 @@ export default function RootLayout({ children }) {
         />
       </Head>
       <body
-        className={`${josefin.className} relative antialiased bg-primary-950 text-primary-100 min-h-screen flex flex-col w-full min-w-[1024px] mx-auto`}
+        className={`${josefin.className} relative antialiased bg-primary-950 text-primary-100 min-h-screen flex flex-col`}
       >
         <Header />
         <div className="flex-1 px-8 py-12 grid">
