@@ -1,6 +1,7 @@
 import { Josefin_Sans } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import Head from "next/head";
 
 const josefin = Josefin_Sans({
   subsets: ["latin"],
@@ -11,7 +12,7 @@ import "@/app/_styles/globals.css";
 import Header from "./_components/Header";
 import { ReservationProvider } from "./_components/ReservationContext";
 
-/*export const metadata = {
+export const metadata = {
   title: {
     template: "%s | The wild Oasis",
     default: "Welcome | The wild Oasis",
@@ -19,7 +20,7 @@ import { ReservationProvider } from "./_components/ReservationContext";
   description:
     "Luxurious cabin hotel, located in the heart of italian Dolomites, surrounded by beautiful mountains and dark forests.",
   viewport: "width=1024, initial-scale=1, maximum-scale=1, user-scalable=no",
-}; */
+};
 
 export default function RootLayout({ children }) {
   return (
