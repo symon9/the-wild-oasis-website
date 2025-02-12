@@ -18,14 +18,14 @@ export const metadata = {
   },
   description:
     "Luxurious cabin hotel, located in the heart of italian Dolomites, surrounded by beautiful mountains and dark forests.",
-viewport: "width=1024, initial-scale=1, maximum-scale=1, user-scalable=no",
+  viewport: "width=1024, initial-scale=1, maximum-scale=1, user-scalable=no",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${josefin.className} relative antialiased bg-primary-950 text-primary-100 min-h-screen flex flex-col w-screen min-w-[1024px] overflow-hidden w-[1280px] scale-[calc(100vw/1280)] origin-top-left`}
+        className={`${josefin.className} relative antialiased bg-primary-950 text-primary-100 min-h-screen flex flex-col w-screen min-w-[1024px]`}
       >
         <Header />
         <div className="flex-1 px-8 py-12 grid">
