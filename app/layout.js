@@ -25,7 +25,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${josefin.className} relative antialiased bg-primary-950 text-primary-100 min-h-screen flex flex-col w-screen min-w-[1024px]`}
+        className={`${josefin.className} relative antialiased bg-primary-950 text-primary-100 min-h-screen flex flex-col w-screen min-w-[1024px] overflow-hidden w-[1280px] scale-[calc(100vw/1280)] origin-top-left`}
       >
         <Header />
         <div className="flex-1 px-8 py-12 grid">
