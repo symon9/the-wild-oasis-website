@@ -18,15 +18,12 @@ export const metadata = {
   },
   description:
     "Luxurious cabin hotel, located in the heart of italian Dolomites, surrounded by beautiful mountains and dark forests.",
-  viewport: "width=1024, user-scalable=no",
+  viewport: "width=1024, initial-scale=1, maximum-scale=1, user-scalable=no",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head>
-        <meta name="viewport" content="width=1024, user-scalable=no" />
-      </head>
       <body
         className={`${josefin.className} relative antialiased bg-primary-950 text-primary-100 min-h-screen flex flex-col min-w-[1024px] mx-auto`}
       >
