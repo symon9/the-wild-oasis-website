@@ -18,7 +18,6 @@ export const metadata = {
   },
   description:
     "Luxurious cabin hotel, located in the heart of italian Dolomites, surrounded by beautiful mountains and dark forests.",
-  viewport: "width=1024, initial-scale=1, maximum-scale=1, user-scalable=no",
 };
 
 export const viewport = {
