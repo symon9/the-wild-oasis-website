@@ -21,11 +21,18 @@ export const metadata = {
   viewport: "width=1024, initial-scale=1, maximum-scale=1, user-scalable=no",
 };
 
+export const viewport = {
+  width: '1024',
+  initialScale: 1,
+  maximumScale: 1,
+  userScalable: "no",
+}
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${josefin.className} relative antialiased bg-primary-950 text-primary-100 min-h-screen flex flex-col w-screen min-w-[1024px]`}
+        className={`${josefin.className} relative antialiased bg-primary-950 text-primary-100 min-h-screen flex flex-col`}
       >
         <Header />
         <div className="flex-1 px-8 py-12 grid">
